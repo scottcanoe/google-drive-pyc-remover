@@ -1,5 +1,6 @@
 # google-drive-pyc-remover
-Python script for deleting all .pyc files from you didn't realize were being backed up by google drive.
+Python script for deleting all .pyc files you didn't realize were being tracked and synced by drive. I made this because restoring my synced folders using Google Backup and Sync was taking forever, and I realized there was a ton of junk (mostly .pyc files) being backed up that I didn't have a reason to care about previously. And I couldn't just simply delete the .pyc files locally, wait for google drive to catch up, and then disable tracking since I had just wiped my hard drive to start fresh. Lesson learned. On the other hand, I did get to play around with PyDrive a little which might come in handy down the line.
+
 
 Installation
 ------------
